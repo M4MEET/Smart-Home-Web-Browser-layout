@@ -1,0 +1,77 @@
+body
+{
+	text-align: center;
+	background-color: #ddbcc7;
+}
+
+p{
+	font-size: 15;
+}
+
+p b 
+{
+    font-size: 40px;
+}
+
+
+.section1
+{
+	width: 50%;
+    background-color: azure;
+    display: inline-block;
+}
+
+.section2
+{
+	background-color: gray;
+    width: 50%;
+    /* margin-top: -264px; */
+    float: right;
+}
+
+.section3
+{
+	background-color: #8ea5ba;
+    width: 50%;
+    float: left;
+}
+
+.section4
+{
+	background-color: #4085c2;
+    width: 50%;
+    float: right;
+}
+
+.section5
+{
+	    background-color: #aaa7bc;
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+
+.section6
+{
+	background-color: #b1b1b2;
+    width: 50%;
+    float: left;
+    display: inline-block;
+    
+}
+
+}
+.section1  button .Function
+{
+	font-size: 7;
+}
+
+.section2  button .Function 
+{
+	font-size: 7;
+}
+
+footer 
+{
+	    display: -webkit-inline-box;
+}
