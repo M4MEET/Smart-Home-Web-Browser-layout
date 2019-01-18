@@ -1,18 +1,3 @@
-/*!
- * jQuery JavaScript Library v1.4.3
- * http://jquery.com/
- *
- * Copyright 2010, John Resig
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
- *
- * Includes Sizzle.js
- * http://sizzlejs.com/
- * Copyright 2010, The Dojo Foundation
- * Released under the MIT, BSD, and GPL Licenses.
- *
- * Date: Thu Oct 14 23:10:06 2010 -0400
- */
 (function( window, undefined ) {
 
 // Use the correct document accordingly with window argument (sandbox)
@@ -6115,7 +6100,7 @@ jQuery.fn.extend({
 		}
 
 		return this[ optall.queue === false ? "each" : "queue" ](function() {
-			// XXX ‘this’ does not always have a nodeName when running the
+			// XXX Â‘thisÂ’ does not always have a nodeName when running the
 			// test suite
 
 			var opt = jQuery.extend({}, optall), p,
